@@ -5,3 +5,43 @@
 }
 
 /* Start coding here */
+
+:root {
+  /* Color Variables */
+  --color-branding: #ff7f50;
+  --color-secondary: cornsilk;
+  --color-highlight: #d2691e;
+  --color-muted: #a9a9a9;
+
+  /* Margin Variables */
+  --margin-1: 1px;
+  --margin-2: 5px;
+  --margin-3: 10px;
+  --margin-4: 15px;
+  --margin-5: 20px;
+
+  /* Padding Variables */
+  --padding-1: 1px;
+  --padding-2: 5px;
+  --padding-3: 10px;
+  --padding-4: 15px;
+  --padding-5: 20px;
+
+  /* Font Size Variables */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 30px;
+  --font-size-2xlarge: 50px;
+  --font-size-3xlarge: 100px;
+}
+
+.introduction {
+  background-color: var(--color-secondary);
+  padding: var(--padding-5);
+}
+
+.introduction h1 {
+  color: var(--color-branding);
+  font-size: var(--font-size-3xlarge);
+}
